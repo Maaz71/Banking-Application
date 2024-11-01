@@ -1,8 +1,9 @@
 package com.app.banking_app.service;
 
-import com.app.banking_app.pojo.Account;
+import com.app.banking_app.dto.AccountDto;
+
 
 public interface AccountService {
 
-    Account createAccount  
+    AccountDto createAccount (AccountDto accountDto);
 }
