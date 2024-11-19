@@ -24,4 +24,9 @@ public class AccountServiceImpl implements AccountService {
 
         return AccountMapper.mapToAccountDto(savedAccount);
     }
+
+    @Override
+    public AccountDto getAccountById(Long id) {
+        return null;
+    }
 }
